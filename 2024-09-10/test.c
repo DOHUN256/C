@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    const int dayofweek = 7;
-    printf("3주에 해당하는 일수: %d일\n", 3 * dayofweek);
+    int score = 100;
+    char book = '책';
+    printf("이 %c은 %f점짜리 이다.", book, score);
 }
