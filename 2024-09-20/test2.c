@@ -5,8 +5,9 @@ int main(){
     scanf("%d",&score);
 
     if(score%2==0){
-        printf("ì§ìˆ˜");
+        printf("Â¦¼ö");
     } else if(score%2==1){
-        printf("í™€ìˆ˜");
+        printf("È¦¼ö");
     return 0;
+    }
 }
