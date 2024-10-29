@@ -6,13 +6,13 @@ typedef struct {
 } human;
 
 int main(){
-    human h1 = {"ê¹€ë³€ìˆ˜", 20};
-    human h2 = {"ì´ë§¤ê°œ", 21};
-    human h3 = {"ë°•í•¨ìˆ˜", 19};
+    human h1 = {"±èº¯¼ö", 20};
+    human h2 = {"ÀÌ¸Å°³", 21};
+    human h3 = {"¹ÚÇÔ¼ö", 19};
     
-    printf("ì²« ë²ˆì§¸ ì‚¬ëŒ ì´ë¦„: %s, ë‚˜ì´:%d\n", h1.name, h1.age);
-    printf("ë‘ ë²ˆì§¸ ì‚¬ëŒ ì´ë¦„: %s, ë‚˜ì´:%d\n", h2.name, h2.age);
-    printf("ì„¸ ë²ˆì§¸ ì‚¬ëŒ ì´ë¦„: %s, ë‚˜ì´:%d\n", h3.name h3.age);
+    printf("Ã¹ ¹øÂ° »ç¶÷ ÀÌ¸§: %s, ³ªÀÌ:%d\n", h1.name, h1.age);
+    printf("µÎ ¹øÂ° »ç¶÷ ÀÌ¸§: %s, ³ªÀÌ:%d\n", h2.name, h2.age);
+    printf("¼¼ ¹øÂ° »ç¶÷ ÀÌ¸§: %s, ³ªÀÌ:%d\n", h3.name, h3.age);
     
     
     return 0;
