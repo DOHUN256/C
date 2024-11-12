@@ -9,6 +9,9 @@ typedef struct
    
 int main(){
    Todolist Todolist1;
+   Todolist1.play = ' ';
+   Todolist1.diary = 'X';
+   Todolist1.workout = ' ';
    printf("<¿À´Ã ÇØ¾ß ÇÒ ÀÏ>\n");
    printf("---------------------\n");
    printf("[%c] ±èº¯¼ö¶û ³î±â\n",Todolist1.play);
