@@ -2,9 +2,12 @@
 
 int main() {
    int years;
-   printf("0000³âµµ¿¡´Â ³ª´Â ¸î »ì: ");
+   int birth;
+   printf("ëª‡ ë…„ ìƒì´ì‹ ê°€ìš”? : ");
+   scanf("%d",&birth);
+   printf("0000ë…„ë„ì—ëŠ” ë‚˜ëŠ” ëª‡ ì‚´: ");
    scanf("%d",&years);
-   int age = years-2005;
-   printf("%d»ì ÀÔ´Ï´Ù.",age);
+   int age = years-birth;
+   printf("%dì‚´ ì…ë‹ˆë‹¤.",age);
    return 0;
 }
